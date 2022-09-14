@@ -174,21 +174,89 @@ section{
 
 #intro{
     background-color: #232340;
+    height: 65rem;
 }
 
 .intro{
     justify-content:space-between;
+    padding: 150px 0px;
 }
 
 .intro-right img{
     position: absolute;
-    right: -120px;
+    right: 0px;
     top: -50px;
 }
 
 .intro-center {
     justify-content: start;
+    z-index: 3;
 }
 
+.intro-center-sub-title{
+    font-size: 18px;
+    color: white;
+}
+
+.intro-center-sub-title span{
+    opacity: 0.5;
+    letter-spacing: 2px;
+    margin-right: 20px;
+}
+
+.intro-center-title{
+    color: white;
+    font-size: 64px;
+    letter-spacing: 2px;
+}
+
+.intro-left{
+    position: relative;
+    left: 300px;
+}
+
+.intro-left img{
+    width: 24px;
+}
+
+.arrow{
+    justify-content: space-around;
+    position: relative;
+    right: 200px;
+    top: 100px;
+}
+
+.arrow-left img{
+    position: absolute;
+    width: 50px;
+    left: -60px;
+    padding: 10px;
+    border-radius: 50px;
+    border: solid 1px white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.arrow-right img{
+    position: absolute;
+    width: 50px;
+    right: -60px;
+    padding: 10px;
+    border-radius: 50px;
+    border: solid 1px white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.arrow-right img:hover{
+    background-color: var(--cta-btn-primary);
+    transition: 0.3s;
+    border: none;
+}
+
+.arrow-left img:hover{
+    background-color: var(--cta-btn-primary);
+    transition: 0.3s;
+    border: none;
+}
 
 /* Intro Style End */
