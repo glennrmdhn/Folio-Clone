@@ -174,7 +174,7 @@ section{
 
 #intro{
     background-color: #232340;
-    height: 65rem;
+    height: 100rem;
 }
 
 .intro{
@@ -257,6 +257,19 @@ section{
     background-color: var(--cta-btn-primary);
     transition: 0.3s;
     border: none;
+}
+
+.slider{
+    justify-content: space-around;
+    position: relative;
+}
+
+.right-slider img{
+    width: 1200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Intro Style End */
