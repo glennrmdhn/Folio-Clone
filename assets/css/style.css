@@ -272,4 +272,9 @@ section{
     align-items: center;
 }
 
+.slider-img{
+    position: absolute;
+    left: 250px;
+}
+
 /* Intro Style End */
