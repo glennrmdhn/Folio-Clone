@@ -15,6 +15,7 @@
     --cta-btn-secondary: #232340;
     --primary-text-color: #ffffff; 
     --secondary-text-color: #5468E7;
+    --third-text-color:#232340;
     --font-bold: 900;
     --font-medium: 600;
     --font-thin: 400;
@@ -121,6 +122,7 @@ section{
     opacity: 0.7;
     font-weight: var(--font-thin);
     line-height: 40px;
+    letter-spacing: 0.5px;
 }
 
 .hero-right img:nth-child(1){
@@ -174,48 +176,50 @@ section{
 
 #intro{
     background-color: #232340;
-    height: 100rem;
+    height: 125rem;
 }
 
-.intro{
+.header{
     justify-content:space-between;
     padding: 150px 0px;
 }
 
-.intro-right img{
+.header-right img{
     position: absolute;
     right: 0px;
     top: -50px;
 }
 
-.intro-center {
+.header-center {
     justify-content: start;
     z-index: 3;
+    position: relative;
+    left: -210px;
 }
 
-.intro-center-sub-title{
+.header-center-sub-title{
     font-size: 18px;
     color: white;
 }
 
-.intro-center-sub-title span{
+.header-center-sub-title span{
     opacity: 0.5;
     letter-spacing: 2px;
     margin-right: 20px;
 }
 
-.intro-center-title{
+.header-center-title{
     color: white;
     font-size: 64px;
     letter-spacing: 2px;
 }
 
-.intro-left{
+.header-left{
     position: relative;
-    left: 300px;
+    left: 50px;
 }
 
-.intro-left img{
+.header-left img{
     width: 24px;
 }
 
@@ -266,15 +270,16 @@ section{
 
 .slider-img div img{
     position: relative;
-    width: 1200px;
-    left: 200px;
+    width: 100%;
+    left: 100px;
+    padding: 0px 100px;
 }
 
 .slick-dots{
     position: absolute;
     top: -50px;
     left: -10px;
-    height: 800px;
+    height: 900px;
     width: 200px;
     background: #232340;
 }
@@ -291,5 +296,270 @@ section{
     letter-spacing: 2px;
 }
 
+.desc{
+    justify-content: space-around;
+    position: relative;
+    margin-top: 175px;
+}
+
+.side-line{
+    border-left: 2px solid white;
+    height: 100px;
+}
+
+.desc-left-side{
+    position: absolute;
+    left: 125px;
+}
+
+.desc-center-side{
+    position: absolute;
+    left: 250px;
+}
+
+.desc-center-side .hero-title{
+    color: white;
+    font-size: 32px;
+}
+
+.desc-center-side .hero-text{
+    color: white;
+    font-size: 18px;
+}
+
+.desc-right-side{
+    position: absolute;
+    right: 250px;
+}
+
+.circle-brand{
+    width: 402px;
+    height: 402px;
+    border-radius: 250px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 50px 55px;
+    position: relative;
+    padding: 50px;
+}
+
+.number-brand{
+    color: white;
+    font-size: 200px;
+    text-align: center;
+}
+
+.text-brand{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
+
 
 /* Intro Style End */
+
+/* Recent Style Start */
+
+#recent-work{
+    height: 100rem;
+}
+
+.head-light .header-center-sub-title{
+    color: var(--secondary-text-color);
+}
+
+.head-light .header-center-title{
+    color: var(--third-text-color);
+}
+
+.head-light .hero-text{
+    margin-bottom: -50px;
+}
+
+.recent-list{
+    justify-content: space-around;
+}
+
+.left-list{
+    position: relative;
+}
+
+.left-list .list-catalog{
+    width: 470px;
+    height: 600px;
+    background-color: #fccc78;
+    position: relative;
+    left: 200px;
+    border-radius: 24px;
+}
+
+.right-list .list-catalog{
+    width: 470px;
+    height: 600px;
+    background-color: #d1ecfd;
+    position: relative;
+    border-radius: 24px;
+}
+
+.list-catalog .centered-list-image{
+    position: absolute;
+    width: 340px;
+    height: 416px;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+}
+
+.list-catalog .arrow-link{
+    position: absolute;
+    width: 60px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 250px;
+    left: 95%;
+    top: 70%;
+    transition: 0.3s;
+}
+
+.arrow-link:hover{
+    background-color: #9a97ed;
+    border: 1px solid transparent;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.list-catalog .featured-list{
+    position: absolute;
+    padding: 10px 50px;
+    border-radius: 250px;
+    color: white;
+    background-color: #9a97ed;
+    left: -50px;
+    top: 50px;
+}
+
+.title-head-list{
+    font-size: 26px;
+    margin: 20px 0px;
+}
+
+.text-body-list{
+    font-size: 18px;
+    opacity: 0.7;
+    font-weight: var(--font-thin);
+    line-height: 40px;
+    letter-spacing: 0.5px;
+}
+
+.list-catalog .text-catalog{
+    position: relative;
+    top: 625px;
+    left: 10px;
+}
+/* Recent Style End */
+
+/* Numbers Style Start */
+
+#numbers{
+    background-color: #232340;
+    height: 120rem;
+}
+
+.design-number{
+    justify-content: space-around;
+    position: relative;
+}
+
+.top-section-number .text-brand{
+    text-align: start;
+}
+
+.top-section-number .number-brand{
+    text-align: start;
+}
+
+.top-section-number .number-group{
+    position: relative;
+}
+
+.number-group .number-plus-icon{
+    position: absolute;
+    color: white;
+    font-size: 75px;
+    top: -20px;
+    left: 250px;
+}
+
+.divider{
+    border: 2px solid white;
+    width: 100%;
+    margin: 100px 0px;
+    opacity: 0.4;
+}
+
+.bottom-section-number .hero-text{
+    color: white;
+    opacity: 0.5;
+}
+
+.left-design-number{
+    position: absolute;
+    left: 300px;
+    top: 200px;
+}
+.right-design-number{
+    position: absolute;
+    right: 300px;
+}
+
+.btn-group{
+    position: relative;
+    justify-content: flex-start;
+}
+
+.btn-group img{
+    background: #5468E7;
+    padding: 10px;
+    width: 50px;
+    border-radius: 250px;
+    margin-right: 20px;
+}
+
+.btn-group .btn-text{
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+.slider .slider-img-number div img{
+    position: relative;
+    width: 100%;
+    padding: 0px 100px;
+}
+
+.slider-img-number{
+    position: relative;
+    bottom: -1000px;
+}
+
+.left-slider-control .arrow-left img{
+    position: relative;
+    top: 1400px;
+    background-color: #5468E7;
+    border: transparent;
+}
+
+.right-slider-control .arrow-right img{
+    position: relative;
+    top: 1400px;
+    background-color: #5468E7;
+    border: transparent;
+}
+
+/* Numbers Style End */
+
+/* Jobs Style Start */
+
+#jobs{
+    margin-top: 350px;
+}
+
+/* Jobs Style End */
