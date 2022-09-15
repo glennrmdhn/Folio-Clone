@@ -77,20 +77,21 @@
         </div>
 
         <div class="flex-container slider">
-            <div class="left-slider">
-                
-            </div>
-            <div class="right-slider">
-                <div class="flex-container slider-img">
-                    <div>
-                        <img src="assets/img/slider-img-1.png">
-                    </div>
-                    <div>
-                        <img src="assets/img/slider-img-1.png">
-                    </div>
-                    <div>
-                        <img src="assets/img/slider-img-1.png">
-                    </div>
+            <div class="flex-container slider-img">
+                <div>
+                    <img src="assets/img/slider-img-1.png">
+                </div>
+                <div>
+                    <img src="assets/img/slider-img-2.png">
+                </div>
+                <div>
+                    <img src="assets/img/slider-img-3.png">
+                </div>
+                <div>
+                    <img src="assets/img/slider-img-1.png">
+                </div>
+                <div>
+                    <img src="assets/img/slider-img-2.png">
                 </div>
             </div>
         </div>
@@ -105,7 +106,14 @@
 
     <script type="text/javascript">
         $(document).ready(function(){
-            $('.slider-img').slick();
+            $('.slider-img').slick({
+                prevArrow: $('.arrow-left')[0],
+                nextArrow: $('.arrow-right')[0],
+                dots:true,
+                customPaging: function(slick,index) {
+                return '<a class="item-slider">' + (index + 2017) + '</a>';
+                }
+            });
         });
       </script>
 
