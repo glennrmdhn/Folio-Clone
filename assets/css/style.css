@@ -585,7 +585,7 @@ section{
 
 #jobs{
     margin-top: 450px;
-    height: 120rem;
+    height: 100rem;
     /* background-color: #f8f4f9; */
     background: linear-gradient(#f8f4f9 0%, white 100%);
 }
@@ -775,6 +775,66 @@ section{
 
 /* Footer Style Start */
 
+#footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+}
 
+
+.footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img{
+    width: 10%;
+}
+
+.footer p{
+    margin: 50px 20px 0px 0px;
+    width: 600px;
+    text-align: center;
+    font-size: 18px;
+    opacity: 0.5;
+    letter-spacing: 0.3px;
+    line-height: 30px;
+}
+
+.footer .navbar{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bottom{
+    border-top: 1px solid rgba(70, 67, 67, 0.74);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.left-footer p{
+    opacity: 0.5;
+}
+
+.left-footer,.right-footer{
+    margin-top: 20px;
+}
+
+.right-footer p{
+    display: inline-block;
+    font-weight: var(--font-medium);
+    color: var(--secondary-text-color);
+    opacity: 0.7;
+}
+
+.right-footer img{
+    margin-left: 20px;
+    opacity: 0.4;
+}
 
 /* Footer Style End */
