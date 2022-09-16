@@ -27,7 +27,7 @@ body{
 
 section{
     position: relative;
-    width: 100%;
+    max-width: 100%;
     height: 50rem;
     margin-top: 50px;
     display: -webkit-flex;
@@ -39,15 +39,14 @@ section{
 }
 
 .flex-container{
-    width: 100%;
-    max-width: 1500px;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
 }
 
 .btn-cta{
     border-radius: 8px;
-    width: 180px;
+    max-width: 180px;
     height: 64px;
     text-align: center;
     display: flex;
@@ -77,7 +76,7 @@ section{
 }
 
 .navbar-brand img{
-    width: 159px;
+    max-width: 159px;
     height: 40px;
 }
 
@@ -111,20 +110,20 @@ section{
 }
 
 .hero-left{
-    width: 90%;
+    max-width: 90%;
     position: relative;
     left: 100px;
 }
 
 .hero-right{
-    width: 90%;
+    max-width: 90%;
     position: relative;
     right: 100px;
 }
 
 .hero-text{
     font-size: 18px;
-    width: 355px;
+    max-width: 355px;
     margin: 50px 0;
     opacity: 0.7;
     font-weight: var(--font-thin);
@@ -234,7 +233,7 @@ section{
 }
 
 .header-left img{
-    width: 24px;
+    max-width: 24px;
 }
 
 .arrow{
@@ -246,7 +245,7 @@ section{
 
 .arrow-left img{
     position: absolute;
-    width: 50px;
+    max-width: 50px;
     left: -60px;
     padding: 10px;
     border-radius: 50px;
@@ -256,7 +255,7 @@ section{
 }
 .arrow-right img{
     position: absolute;
-    width: 50px;
+    max-width: 50px;
     right: -60px;
     padding: 10px;
     border-radius: 50px;
@@ -284,7 +283,7 @@ section{
 
 .slider-img div img{
     position: relative;
-    width: 100%;
+    max-width: 100%;
     left: 100px;
     padding: 0px 100px;
 }
@@ -294,7 +293,7 @@ section{
     top: -50px;
     left: -10px;
     height: 900px;
-    width: 200px;
+    max-width: 200px;
     background: #232340;
 }
 
@@ -355,7 +354,7 @@ section{
 }
 
 .circle-brand{
-    width: 402px;
+    max-width: 402px;
     height: 402px;
     border-radius: 250px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 50px 55px;
@@ -421,7 +420,7 @@ section{
 }
 
 .left-list .list-catalog{
-    width: 470px;
+    max-width: 470px;
     height: 600px;
     background-color: #fccc78;
     position: relative;
@@ -430,7 +429,7 @@ section{
 }
 
 .right-list .list-catalog{
-    width: 470px;
+    max-width: 470px;
     height: 600px;
     background-color: #d1ecfd;
     position: relative;
@@ -439,7 +438,7 @@ section{
 
 .list-catalog .centered-list-image{
     position: absolute;
-    width: 340px;
+    max-width: 340px;
     height: 416px;
     top: 50%;
     right: 50%;
@@ -448,7 +447,7 @@ section{
 
 .list-catalog .arrow-link{
     position: absolute;
-    width: 60px;
+    max-width: 60px;
     border: 1px solid black;
     padding: 10px;
     border-radius: 250px;
@@ -528,7 +527,7 @@ section{
 
 .divider{
     border: 2px solid white;
-    width: 100%;
+    max-width: 100%;
     margin: 100px 0px;
     opacity: 0.4;
 }
@@ -556,7 +555,7 @@ section{
 .btn-group img{
     background: #5468E7;
     padding: 10px;
-    width: 50px;
+    max-width: 50px;
     border-radius: 250px;
     margin-right: 20px;
 }
@@ -569,7 +568,7 @@ section{
 
 .slider .slider-img-number div img{
     position: relative;
-    width: 100%;
+    max-width: 100%;
     padding: 0px 100px;
 }
 
@@ -619,7 +618,7 @@ section{
     top: 50px;
     right: 50px;
     box-shadow: rgba(0, 0, 0, 0.10) 0px 15px 15px;
-    width: 700px;
+    max-width: 700px;
     padding: 80px;
     border-radius: 25px;
     transition: 0.3s;
@@ -695,7 +694,7 @@ section{
     position: relative;
     top: 35px;
     right: 225px;
-    width: 50px;
+    max-width: 50px;
 }
 
 
@@ -764,13 +763,13 @@ section{
 
 .left-hello{
     border-top: 0.1px solid rgba(255, 255, 255, 0.664);
-    width: 100%;
+    max-width: 100%;
     padding: 200px;
     height: 700px;
 }
 
 .right-hello{
-    width: 100%;
+    max-width: 100%;
     border-top: 0.1px solid rgba(255, 255, 255, 0.664);
     padding: 200px;
     border-left: 0.1px solid rgba(255, 255, 255, 0.664);
@@ -778,7 +777,7 @@ section{
 }
 
 .right-hello .icon{
-    width: 166px;
+    max-width: 166px;
     display: flex;
     justify-content: start;
 }
@@ -791,7 +790,7 @@ section{
 #footer{
     position: relative;
     bottom: 0;
-    width: 100%;
+    max-width: 100%;
     height: 300px;
 }
 
@@ -803,12 +802,12 @@ section{
 }
 
 .footer img{
-    width: 10%;
+    max-width: 10%;
 }
 
 .footer p{
     margin: 50px 20px 0px 0px;
-    width: 600px;
+    max-width: 600px;
     text-align: center;
     font-size: 18px;
     opacity: 0.5;
