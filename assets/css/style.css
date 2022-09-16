@@ -584,12 +584,197 @@ section{
 /* Jobs Style Start */
 
 #jobs{
-    margin-top: 350px;
+    margin-top: 450px;
     height: 120rem;
+    /* background-color: #f8f4f9; */
+    background: linear-gradient(#f8f4f9 0%, white 100%);
 }
 
 #jobs .header-center{
     left: -370px;
 }
 
+.jobs-list{
+    position: relative;
+    flex-direction: column;
+}
+
+
+.jobs-box{
+    position: absolute;
+    flex-direction: column;
+    top: 50px;
+    right: 50px;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 15px 15px;
+    width: 700px;
+    padding: 80px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.jobs-box:hover{
+    background-color: var(--cta-btn-secondary);
+    transition: 0.3s;
+}
+
+.jobs-box:hover .header-center-title{
+    color: white;
+    transition: 0.3s;
+}
+
+.jobs-box:hover .hero-text{
+    color: white;
+    transition: 0.3s;
+}
+
+.jobs-box:hover .arrow-right img{
+    filter: invert(100%);
+    transition: 0.3s;
+    border: none;
+}
+
+.jobs-box .arrow-right img{
+    border: none;
+}
+
+.jobs-box:nth-child(2){
+    top: 350px;
+}
+
+.jobs-box:nth-child(3){
+    top: 650px;
+}
+
+.jobs-box:nth-child(4){
+    top: 950px;
+}
+
+.jobs-box .header-center-title{
+    font-size: 32px;
+    margin: -30px 0px;
+    transition: 0.3s;
+}
+
+.jobs-box .hero-text{
+    margin: 25px 0px;
+    opacity: 0.3;
+    transition: 0.3s;
+}
+
+.jobs-box .arrow-right{
+    position: absolute;
+    top: 190px;
+    left: 60px;
+}
+
+.available-jobs{
+    justify-content: space-between;
+}
+
+.available-jobs .arrow-right img{
+    position: relative;
+    background-color:#C897E4;
+    top: 100px;
+    left: -10px;
+}
+
+.available-jobs .hero-text{
+    position: relative;
+    top: 35px;
+    right: 225px;
+    width: 50px;
+}
+
+
 /* Jobs Style End */
+
+/* Hello Style Start */
+
+#hello{
+    height: 100rem;
+}
+
+.hello{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #5468E7;
+    border-radius: 50px;
+}
+
+.header-hello{
+    padding-top: 200px;
+}
+
+.header-hello p{
+    color: white;
+    opacity: 1;
+    font-size: 18px;
+    margin: 30px 0px;
+}
+
+.header-hello h1{
+    font-size: 32px;
+    color: white;
+    margin: 30px 0px;
+}
+
+.hello-footer{
+    justify-content: space-around;
+    margin-top: 200px;
+    align-items: center;
+}
+
+.hello-footer .left-hello h1{
+    text-align: start;
+    font-size: 64px;
+    color: white;
+}
+
+.talk-hello{
+    justify-content: space-between;
+    position: relative;
+}
+
+.talk-hello h1{
+    text-align: start;
+    color: white;
+}
+
+.arrow-right img:hover{
+    border: 1px solid white;
+    background-color: white;
+    transition: 0.5s;
+    filter: invert(100%);
+}
+
+.left-hello{
+    border-top: 0.1px solid rgba(255, 255, 255, 0.664);
+    width: 100%;
+    padding: 200px;
+    height: 700px;
+}
+
+.right-hello{
+    width: 100%;
+    border-top: 0.1px solid rgba(255, 255, 255, 0.664);
+    padding: 200px;
+    border-left: 0.1px solid rgba(255, 255, 255, 0.664);
+    height: 700px;
+}
+
+.right-hello .icon{
+    width: 166px;
+    display: flex;
+    justify-content: start;
+}
+
+/* Hello Style End */
+
+
+/* Footer Style Start */
+
+
+
+/* Footer Style End */
