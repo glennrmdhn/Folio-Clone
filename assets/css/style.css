@@ -30,6 +30,12 @@ section{
     width: 100%;
     height: 50rem;
     margin-top: 50px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
 }
 
 .flex-container{
@@ -101,6 +107,7 @@ section{
 
 .hero{
     justify-content: space-around;
+    flex-direction: row;
 }
 
 .hero-left{
@@ -125,50 +132,56 @@ section{
     letter-spacing: 0.5px;
 }
 
-.hero-right img:nth-child(1){
+.hero-right .monitor{
     z-index: 3;
     position: absolute;
-    width: 150%;
+    max-width: 150%;
+    height: auto;
     right: -50px;
 }
 
-.hero-right img:nth-child(2){
+.hero-right .purple-bg{
     z-index: 1;
     position: absolute;
     right: 10px;
+    height: auto;
 }
 
-.hero-right img:nth-child(3){
+.hero-right .net{
     z-index: 1;
     position: absolute;
     right: 20px;
     top: 25px;
-    width: 50%;
+    max-width: 50%;
+    height: auto;
 }
 
-.hero-right img:nth-child(4){
+.hero-right .float-blocks{
     z-index: 3;
     position: absolute;
     right: 175px;
     top: 110px;
-    width: 75%;
+    max-width: 75%;
+    height: auto;
 }
 
-.hero-right img:nth-child(5){
+.hero-right .r-hand{
     z-index: 3;
     position: absolute;
     right: 0px;
     top: 285px;
-    width: 45%;
+    max-width: 45%;
+    height: auto;
 }
 
-.hero-right img:nth-child(6){
+.hero-right .l-hand{
     z-index: 3;
     position: absolute;
     right: 500px;
     top: 390px;
-    width: 55%;
-}
+    max-width: 55%;
+    height: auto;
+} 
 
 /* Hero Style End */
 
