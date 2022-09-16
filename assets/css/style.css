@@ -27,7 +27,7 @@ body{
 
 section{
     position: relative;
-    max-width: 100%;
+    width: 100%;
     height: 50rem;
     margin-top: 50px;
     display: -webkit-flex;
@@ -39,14 +39,15 @@ section{
 }
 
 .flex-container{
-    max-width: 100%;
+    width: 100%;
+    max-width: 1500px;
     margin: 0 auto;
     display: flex;
 }
 
 .btn-cta{
     border-radius: 8px;
-    max-width: 180px;
+    width: 180px;
     height: 64px;
     text-align: center;
     display: flex;
@@ -76,7 +77,7 @@ section{
 }
 
 .navbar-brand img{
-    max-width: 159px;
+    width: 159px;
     height: 40px;
 }
 
@@ -100,6 +101,8 @@ section{
 
 /* Hero Style Start */
 
+
+
 .hero-title{
     font-size: 84px;
 }
@@ -110,20 +113,20 @@ section{
 }
 
 .hero-left{
-    max-width: 90%;
+    width: 90%;
     position: relative;
     left: 100px;
 }
 
 .hero-right{
-    max-width: 90%;
+    width: 90%;
     position: relative;
     right: 100px;
 }
 
 .hero-text{
     font-size: 18px;
-    max-width: 355px;
+    width: 355px;
     margin: 50px 0;
     opacity: 0.7;
     font-weight: var(--font-thin);
@@ -233,7 +236,7 @@ section{
 }
 
 .header-left img{
-    max-width: 24px;
+    width: 24px;
 }
 
 .arrow{
@@ -245,7 +248,7 @@ section{
 
 .arrow-left img{
     position: absolute;
-    max-width: 50px;
+    width: 50px;
     left: -60px;
     padding: 10px;
     border-radius: 50px;
@@ -255,7 +258,7 @@ section{
 }
 .arrow-right img{
     position: absolute;
-    max-width: 50px;
+    width: 50px;
     right: -60px;
     padding: 10px;
     border-radius: 50px;
@@ -283,7 +286,7 @@ section{
 
 .slider-img div img{
     position: relative;
-    max-width: 100%;
+    width: 100%;
     left: 100px;
     padding: 0px 100px;
 }
@@ -293,7 +296,7 @@ section{
     top: -50px;
     left: -10px;
     height: 900px;
-    max-width: 200px;
+    width: 200px;
     background: #232340;
 }
 
@@ -354,7 +357,7 @@ section{
 }
 
 .circle-brand{
-    max-width: 402px;
+    width: 402px;
     height: 402px;
     border-radius: 250px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 50px 55px;
@@ -420,7 +423,7 @@ section{
 }
 
 .left-list .list-catalog{
-    max-width: 470px;
+    width: 470px;
     height: 600px;
     background-color: #fccc78;
     position: relative;
@@ -429,7 +432,7 @@ section{
 }
 
 .right-list .list-catalog{
-    max-width: 470px;
+    width: 470px;
     height: 600px;
     background-color: #d1ecfd;
     position: relative;
@@ -438,7 +441,7 @@ section{
 
 .list-catalog .centered-list-image{
     position: absolute;
-    max-width: 340px;
+    width: 340px;
     height: 416px;
     top: 50%;
     right: 50%;
@@ -447,7 +450,7 @@ section{
 
 .list-catalog .arrow-link{
     position: absolute;
-    max-width: 60px;
+    width: 60px;
     border: 1px solid black;
     padding: 10px;
     border-radius: 250px;
@@ -527,7 +530,7 @@ section{
 
 .divider{
     border: 2px solid white;
-    max-width: 100%;
+    width: 100%;
     margin: 100px 0px;
     opacity: 0.4;
 }
@@ -555,7 +558,7 @@ section{
 .btn-group img{
     background: #5468E7;
     padding: 10px;
-    max-width: 50px;
+    width: 50px;
     border-radius: 250px;
     margin-right: 20px;
 }
@@ -568,7 +571,7 @@ section{
 
 .slider .slider-img-number div img{
     position: relative;
-    max-width: 100%;
+    width: 100%;
     padding: 0px 100px;
 }
 
@@ -618,7 +621,7 @@ section{
     top: 50px;
     right: 50px;
     box-shadow: rgba(0, 0, 0, 0.10) 0px 15px 15px;
-    max-width: 700px;
+    width: 700px;
     padding: 80px;
     border-radius: 25px;
     transition: 0.3s;
@@ -694,7 +697,7 @@ section{
     position: relative;
     top: 35px;
     right: 225px;
-    max-width: 50px;
+    width: 50px;
 }
 
 
@@ -763,13 +766,13 @@ section{
 
 .left-hello{
     border-top: 0.1px solid rgba(255, 255, 255, 0.664);
-    max-width: 100%;
+    width: 100%;
     padding: 200px;
     height: 700px;
 }
 
 .right-hello{
-    max-width: 100%;
+    width: 100%;
     border-top: 0.1px solid rgba(255, 255, 255, 0.664);
     padding: 200px;
     border-left: 0.1px solid rgba(255, 255, 255, 0.664);
@@ -777,7 +780,7 @@ section{
 }
 
 .right-hello .icon{
-    max-width: 166px;
+    width: 166px;
     display: flex;
     justify-content: start;
 }
@@ -790,7 +793,7 @@ section{
 #footer{
     position: relative;
     bottom: 0;
-    max-width: 100%;
+    width: 100%;
     height: 300px;
 }
 
@@ -802,12 +805,12 @@ section{
 }
 
 .footer img{
-    max-width: 10%;
+    width: 10%;
 }
 
 .footer p{
     margin: 50px 20px 0px 0px;
-    max-width: 600px;
+    width: 600px;
     text-align: center;
     font-size: 18px;
     opacity: 0.5;
